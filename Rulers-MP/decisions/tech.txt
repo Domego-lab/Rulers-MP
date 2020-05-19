@@ -1,0 +1,19 @@
+political_decisions = {
+	law_of_tec = {
+		potential = {
+			ai = no
+			NOT = {
+				tech_school = prussian_tech_school
+			}
+		}
+		
+		allow = {
+                nationalism_n_imperialism = 1
+                iron_railroad = 1
+                breech_loaded_rifles = 1
+		}
+		
+		effect = {
+			tech_school = prussian_tech_school
+			}
+	}

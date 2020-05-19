@@ -1,0 +1,23 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+privilegiado = {
+	trigger = {
+		ai = no
+        }
+	diplomatic_points_modifier = 1000.0
+        max_loan_modifier = 100.0
+        ruling_party_support = 1000.0
+	icon = 15
+
+}
+
+desprivilegiado = {
+	trigger = {
+		ai = yes
+          }
+	diplomatic_points_modifier = 1000.0
+	
+}
